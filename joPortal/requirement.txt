@@ -7,7 +7,7 @@
 # Make sure your virtual environment is activated first:
 #   source venv/bin/activate   (Mac/Linux)
 #   venv\Scripts\activate      (Windows)
- 
+
 # ── Core Django ────────────────────────────────────────────
 Django==4.2.1
 djangorestframework==3.14.0
