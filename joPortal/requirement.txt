@@ -1,0 +1,36 @@
+ Job Board Portal — Python Dependencies
+# Generated for Django + DRF + JWT + Groq AI + PostgreSQL stack
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Make sure your virtual environment is activated first:
+#   source venv/bin/activate   (Mac/Linux)
+#   venv\Scripts\activate      (Windows)
+ 
+# ── Core Django ────────────────────────────────────────────
+Django==4.2.1
+djangorestframework==3.14.0
+ 
+# ── Authentication ─────────────────────────────────────────
+djangorestframework-simplejwt==5.3.0
+ 
+# ── CORS (allows React frontend to talk to Django) ─────────
+django-cors-headers==4.1.0
+ 
+# ── Database ───────────────────────────────────────────────
+psycopg2-binary==2.9.6          # PostgreSQL adapter
+# Note: use psycopg2 (not binary) in production on Linux servers
+ 
+# ── AI Integration ─────────────────────────────────────────
+groq==0.4.2                     # Groq API client (LLaMA 3)
+ 
+# ── PDF Parsing ────────────────────────────────────────────
+PyPDF2==3.0.1                   # Extract text from uploaded resume PDFs
+ 
+# ── Environment Variables ──────────────────────────────────
+python-dotenv==1.0.0            # Loads .env file into os.environ
+ 
+# ── File Handling ──────────────────────────────────────────
+Pillow==10.0.0                  # Required for Django ImageField 
+ 
