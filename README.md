@@ -172,9 +172,6 @@ Vercel auto-deploys every time you push to main. Takes about 90 seconds.
 
 One thing to set up after deploying — go to your Django backend settings and add your Vercel URL to CORS_ALLOWED_ORIGINS:
 
-pythonCORS_ALLOWED_ORIGINS = [
-    "https://your-app.vercel.app",
-]
 
 Without this, the browser will block all API calls from the frontend.
 
