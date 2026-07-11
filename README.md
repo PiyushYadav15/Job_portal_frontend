@@ -248,8 +248,5 @@ A few things that weren't obvious until I actually built it:
 
 **Piyush Yadav**
 MCA student 
-
-[GitHub](https://github.com/PiyushYadav15) · [LinkedIn](https://linkedin.com/in/piyush-yadav1529) · [Email](mailto:piyushyadav2915@gmail.com)
-
 ---
 
